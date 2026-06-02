@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Kaio';
+    src: url('/kaio/Kaio-Light.eot');
+    src: local('Kaio Light'), local('Kaio-Light'),
+        url('/kaio/Kaio-Light.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Light.woff2') format('woff2'),
+        url('/kaio/Kaio-Light.woff') format('woff'),
+        url('/kaio/Kaio-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio';
+    src: url('/kaio/Kaio-Medium.eot');
+    src: local('Kaio Medium'), local('Kaio-Medium'),
+        url('/kaio/Kaio-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Medium.woff2') format('woff2'),
+        url('/kaio/Kaio-Medium.woff') format('woff'),
+        url('/kaio/Kaio-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio';
+    src: url('/kaio/Kaio-Regular.eot');
+    src: local('Kaio Regular'), local('Kaio-Regular'),
+        url('/kaio/Kaio-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Regular.woff2') format('woff2'),
+        url('/kaio/Kaio-Regular.woff') format('woff'),
+        url('/kaio/Kaio-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio Super';
+    src: url('/kaio/Kaio-Super.eot');
+    src: local('Kaio Super'), local('Kaio-Super'),
+        url('/kaio/Kaio-Super.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Super.woff2') format('woff2'),
+        url('/kaio/Kaio-Super.woff') format('woff'),
+        url('/kaio/Kaio-Super.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio';
+    src: url('/kaio/Kaio-Bold.eot');
+    src: local('Kaio Bold'), local('Kaio-Bold'),
+        url('/kaio/Kaio-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Bold.woff2') format('woff2'),
+        url('/kaio/Kaio-Bold.woff') format('woff'),
+        url('/kaio/Kaio-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio Krilin';
+    src: url('/kaio/Kaio-Krilin.eot');
+    src: local('Kaio Krilin'), local('Kaio-Krilin'),
+        url('/kaio/Kaio-Krilin.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Krilin.woff2') format('woff2'),
+        url('/kaio/Kaio-Krilin.woff') format('woff'),
+        url('/kaio/Kaio-Krilin.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaio';
+    src: url('/kaio/Kaio-Black.eot');
+    src: local('Kaio Black'), local('Kaio-Black'),
+        url('/kaio/Kaio-Black.eot?#iefix') format('embedded-opentype'),
+        url('/kaio/Kaio-Black.woff2') format('woff2'),
+        url('/kaio/Kaio-Black.woff') format('woff'),
+        url('/kaio/Kaio-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
