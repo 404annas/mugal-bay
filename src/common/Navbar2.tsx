@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const Navbar2: React.FC = () => {
   return (
-    // Outer header: pl-0 allows the logo to connect completely with the left edge
-    <header className="relative w-full bg-[#fff] py-4 pl-0 pr-4 md:pr-8">
+    // Outer header: sticky top-0 ensures it scrolls with the website
+    <header className="sticky top-0 z-50 w-full bg-white backdrop-blur-md py-4 pl-0 pr-4 md:pr-8">
       <div className="w-full flex items-center justify-between">
         {/* Left Group: Contains both Logo Pill and Menu Pill */}
         <div className="flex items-center gap-4">
