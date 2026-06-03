@@ -63,7 +63,7 @@ const DogSection: React.FC = () => {
       </div>
 
       {/* Main Heading Text */}
-      <h1 className="font-kaio text-4xl sm:text-5xl md:text-[64px] font-bold text-[#0c062c] text-center tracking-tight max-w-7xl mx-auto z-10 translate-y-4">
+      <h1 className="font-grifter text-4xl sm:text-5xl md:text-[64px] font-black text-[#0c062c] text-center max-w-7xl mx-auto z-10 translate-y-4">
         A new project{" "}
         <span className="inline-block w-[120px] sm:w-[140px]"></span> management
       </h1>
@@ -136,7 +136,7 @@ const DogSection: React.FC = () => {
       </div>
 
       {/* Dynamic Animated Headline Row */}
-      <h2 className="text-4xl sm:text-5xl md:text-[64px] font-bold font-kaio text-[#0c062c] text-center tracking-tight leading-[1.12] max-w-4xl mx-auto z-10 min-h-[75px]">
+      <h2 className="text-4xl sm:text-5xl md:text-[64px] font-bold font-grifter text-[#0c062c] text-center leading-[1.12] max-w-4xl mx-auto z-10 min-h-[75px]">
         tool you'll{" "}
         {mounted && (
           <span className="text-[#ff5555]">

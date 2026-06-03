@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { Sparkles, MoreHorizontal, ArrowRight } from "lucide-react";
-import Logo from "@/assets/logo2.jpeg";
+import Logo from "@/assets/logo4.svg";
 import Link from "next/link";
 
 const Navbar2: React.FC = () => {
@@ -15,8 +15,8 @@ const Navbar2: React.FC = () => {
         <div className="flex items-center gap-4">
           {/* Logo Pill: Flat on the left, connected with the viewport edge */}
           <Link href={"/"}>
-            <div className="flex items-center border-y border-r border-[#dde2f0] rounded-r-full rounded-l-none pl-10 pr-2 py-2.5 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[50px]">
-              <div className="relative w-40 h-40 flex items-center">
+            <div className="flex items-center border-y border-r border-[#dde2f0] rounded-r-2xl rounded-l-none pl-10 pr-4 py-2.5 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[44px]">
+              <div className="relative w-20 h-20 flex items-center">
                 <Image
                   src={Logo}
                   alt="Logo"
@@ -29,7 +29,7 @@ const Navbar2: React.FC = () => {
           </Link>
 
           {/* Navigation Menu Pill */}
-          <nav className="hidden lg:flex items-center bg-white border border-[#dde2f0] rounded-full px-7 py-2 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[50px] gap-6">
+          <nav className="hidden lg:flex items-center bg-white border border-[#dde2f0] rounded-2xl px-7 py-2 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[44px] gap-6">
             <a
               href="#product"
               className="text-sm font-semibold text-[#090325] hover:text-[#3e11e1] transition-colors"
@@ -62,7 +62,7 @@ const Navbar2: React.FC = () => {
         </div>
 
         {/* Right Side: Auth Action Buttons */}
-        <div className="flex items-center bg-white border border-[#dde2f0] rounded-full p-1 pl-6 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[50px] gap-5">
+        <div className="flex items-center bg-white border border-[#dde2f0] rounded-2xl p-1 pl-6 shadow-[0_2px_10px_-3px_rgba(0,0,0,0.03)] h-[44px] gap-5">
           <a
             href="#login"
             className="text-sm font-semibold text-[#4a4864] hover:text-[#3e11e1] transition-colors"
@@ -71,7 +71,7 @@ const Navbar2: React.FC = () => {
           </a>
           <a
             href="#signup"
-            className="flex items-center gap-1 bg-[#2e00c5] hover:bg-[#220096] text-white text-sm font-semibold rounded-full px-5 py-2.5 transition-colors h-full"
+            className="flex items-center gap-1 bg-[#2e00c5] hover:bg-[#220096] text-white text-sm font-semibold rounded-xl px-3 py-2.5 transition-colors h-full"
           >
             Try for free
             <ArrowRight className="w-4 h-4" />

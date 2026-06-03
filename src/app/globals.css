@@ -1,11 +1,13 @@
 @import "tailwindcss";
 @import "../../public/kaio/stylesheet.css";
+@import "../../public/fonts/stylesheet.css";
 
 @theme inline {
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-kaio: "Kaio", ui-sans-serif, system-ui, sans-serif;
+  --font-grifter: "Grifter", ui-sans-serif, system-ui, sans-serif;
   --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-marker: var(--font-marker), cursive;
   --font-roboto: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;

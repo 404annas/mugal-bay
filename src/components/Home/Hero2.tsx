@@ -11,20 +11,20 @@ const Hero2 = () => {
       </div>
 
       {/* Main Heading */}
-      <h1 className="text-[40px] md:text-[56px] font-bold font-kaio leading-[1] max-w-5xl mb-4 mt-0">
+      <h1 className="text-[40px] md:text-[56px] font-black font-inter leading-[1] max-w-5xl mb-4 mt-0">
         One app to{" "}
         <span className="relative inline-block">
           <span className="relative z-10">run,</span>
-          <span className="absolute bottom-1 left-0 w-full h-[40%] bg-[#c0b6e4] -z-0"></span>
+          <span className="absolute bottom-1 left-0 w-full h-[40%] bg-[#FFEE99] -z-0"></span>
         </span>{" "}
         <span className="relative inline-block">
           <span className="relative z-10">grow,</span>
-          <span className="absolute bottom-1 left-0 w-full h-[40%] bg-[#c0b6e4] -z-0"></span>
+          <span className="absolute bottom-1 left-0 w-full h-[40%] bg-[#FFEE99] -z-0"></span>
         </span>{" "}
         and <br />
         <span className="relative inline-block leading-none">
           <span className="relative z-10">automate your business</span>
-          <span className="absolute bottom-1 left-0 w-full h-[35%] bg-[#c0b6e4] -z-0"></span>
+          <span className="absolute bottom-1 left-0 w-full h-[35%] bg-[#FFEE99] -z-0"></span>
         </span>
       </h1>
 
@@ -36,7 +36,7 @@ const Hero2 = () => {
       </p>
 
       {/* Button */}
-      <button className="bg-[#3b00d4] hover:bg-[#2e00a5] text-white px-7 py-3 rounded-full text-base font-bold flex items-center gap-2 transition-all duration-300 shadow-lg mb-4 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+      <button className="bg-[#3b00d4] hover:bg-[#2e00a5] text-white px-4 py-2.5 rounded-xl text-base font-bold flex items-center gap-2 transition-all duration-300 shadow-lg mb-4 hover:-translate-y-1 cursor-pointer">
         Preview Dashboard
         <svg
           xmlns="http://www.w3.org/2000/svg"
