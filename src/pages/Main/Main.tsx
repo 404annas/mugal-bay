@@ -9,6 +9,7 @@ const Main = () => {
       {/* <FocusSlider /> */}
         
         <Hero2 />
+        
         {/* <Cards /> */}
     </div>
   )
