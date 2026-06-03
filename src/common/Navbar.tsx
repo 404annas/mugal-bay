@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="w-full max-w-[1200px] flex flex-col items-end justify-center relative">
       
       {/* Floating Navbar Container */}
-      <header className="w-full h-[50px] flex items-center justify-between px-3 bg-transparent border border-black/30 shadow-sm rounded-2xl">
+      <header className="w-full h-[50px] flex items-center justify-between px-3 bg-transparent border border-black/20 shadow-sm rounded-2xl">
         
         <nav className="hidden md:flex items-center gap-1">
           {navItems.map((item) => (

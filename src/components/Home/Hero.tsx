@@ -1,16 +1,18 @@
 import Navbar from "@/common/Navbar";
 import { Mail, ArrowRight } from "lucide-react";
 import Slider from "./Slider";
+import Navbar2 from "@/common/Navbar2";
 
 const Hero = () => {
   return (
+    <>
+      {/* <Navbar2 /> */}
     <div className="h-screen p-2">
       {/* Outer div acts as the border */}
       <div className="h-full w-full rounded-[30px] bg-gradient-to-br from-[#170d52] via-[#afafaf] to-[#afafaf] p-[1px]">
         {/* Inner div acts as the background */}
         <div className="h-full w-full rounded-[28px] bg-gradient-to-br from-[#2C199E] via-[#ffffff] to-[#ffffff] flex flex-col items-center justify-start pt-4 px-4 md:px-8">
           {/* Navbar */}
-          <Navbar />
 
           {/* Hero Content Section - Made relative & w-full for positioning */}
           <div className="flex-1 flex flex-col items-center justify-center text-center max-w-7xl w-full px-4 pb-20 relative">
@@ -122,6 +124,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
