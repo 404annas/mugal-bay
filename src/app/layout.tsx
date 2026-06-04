@@ -10,6 +10,7 @@ import {
 import "./globals.css";
 import FocusSlider from "@/components/Home/FocusSlider";
 import Navbar2 from "@/common/Navbar2";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,9 +62,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${marker.variable} ${roboto.variable} ${robotoMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <FocusSlider />
-        <Navbar2 />
-        {children}
+        <SmoothScroll>
+          <FocusSlider />
+          <Navbar2 />
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );
