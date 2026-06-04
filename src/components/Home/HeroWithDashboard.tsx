@@ -491,7 +491,7 @@ const CombinedPage: React.FC = () => {
             {/* Header Row: Cards 1, 2, 3 (Set container to relative and z-50 to stack above Hero elements) */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 relative z-50">
               {/* Card 1: We Care */}
-              <div className="animate-card-1 z-50 bg-[#dae1e5] border border-white/50 p-3 px-4 rounded-xl flex items-center gap-3 shadow-md md:shadow-none relative">
+              <div className="animate-card-1 z-50 bg-[#dae1e5] border border-black/30 p-3 px-4 rounded-xl flex items-center gap-3 shadow-md md:shadow-none relative">
                 <div className="w-9 h-9 rounded-full bg-white/60 flex items-center justify-center text-[#0b4d53]">
                   <Smile className="w-5 h-5" />
                 </div>
@@ -504,7 +504,7 @@ const CombinedPage: React.FC = () => {
               </div>
 
               {/* Card 2: Drive Growth */}
-              <div className="animate-card-2 z-50 bg-[#dae1e5] border border-white/50 p-3 px-4 rounded-xl flex items-center gap-3 shadow-md md:shadow-none relative">
+              <div className="animate-card-2 z-50 bg-[#dae1e5] border border-black/30 p-3 px-4 rounded-xl flex items-center gap-3 shadow-md md:shadow-none relative">
                 <div className="w-9 h-9 rounded-full bg-white/60 flex items-center justify-center text-[#ff8555]">
                   <BarChart2 className="w-5 h-5" />
                 </div>
@@ -519,7 +519,7 @@ const CombinedPage: React.FC = () => {
               </div>
 
               {/* Card 3: Promote Sustainability */}
-              <div className="animate-card-3 z-50 bg-[#dae1e5] border border-white/50 p-3 px-4 rounded-xl flex items-center gap-3 relative overflow-visible shadow-md md:shadow-none">
+              <div className="animate-card-3 z-50 bg-[#dae1e5] border border-black/30 p-3 px-4 rounded-xl flex items-center gap-3 relative overflow-visible shadow-md md:shadow-none">
                 <div className="w-9 h-9 rounded-full bg-white/60 flex items-center justify-center text-[#0b4d53]">
                   <HelpCircle className="w-5 h-5 rotate-45" />
                 </div>
