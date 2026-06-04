@@ -8,9 +8,9 @@ const Main = () => {
     <div>
       {/* <FocusSlider /> */}
 
-      <Hero2 />
-      <Dashboard />
-      {/* <HeroWithDashboard /> */}
+      {/* <Hero2 /> */}
+      {/* <Dashboard /> */}
+      <HeroWithDashboard />
       <DogSection />
       {/* <Cards /> */}
     </div>
