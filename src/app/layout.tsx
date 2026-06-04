@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Permanent_Marker, Roboto, Roboto_Mono } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Inter,
+  Permanent_Marker,
+  Roboto,
+  Roboto_Mono,
+} from "next/font/google";
 import "./globals.css";
 import FocusSlider from "@/components/Home/FocusSlider";
 import Navbar2 from "@/common/Navbar2";
@@ -39,7 +46,8 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Mogul Bay | Your Ultimate Financial Dashboard",
-  description: "Manage your wealth with Mogul Bay - the ultimate financial dashboard for tracking and optimizing your investments. Stay on top of your portfolio, analyze performance, and make informed decisions with our intuitive interface and powerful tools.",
+  description:
+    "Manage your wealth with Mogul Bay - the ultimate financial dashboard for tracking and optimizing your investments. Stay on top of your portfolio, analyze performance, and make informed decisions with our intuitive interface and powerful tools.",
 };
 
 export default function RootLayout({
@@ -55,7 +63,8 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <FocusSlider />
         <Navbar2 />
-        {children}</body>
+        {children}
+      </body>
     </html>
   );
 }

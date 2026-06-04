@@ -1,18 +1,22 @@
-import Cards from '@/components/Home/Cards'
-import FocusSlider from '@/components/Home/FocusSlider'
-import Hero from '@/components/Home/Hero'
-import Hero2 from '@/components/Home/Hero2'
+import Dashboard from "@/components/Home/Dashboard";
+import DogSection from "@/components/Home/DogSection";
+import Hero2 from "@/components/Home/Hero2";
+import HeroWithDashboard from "@/components/Home/HeroWithDashboard";
+import TabSection from "@/components/Home/TabSection";
 
 const Main = () => {
   return (
     <div>
       {/* <FocusSlider /> */}
-        
-        <Hero2 />
-        
-        {/* <Cards /> */}
-    </div>
-  )
-}
 
-export default Main
+      <Hero2 />
+      <Dashboard />
+      {/* <HeroWithDashboard /> */}
+      <DogSection />
+      <TabSection />
+      {/* <Cards /> */}
+    </div>
+  );
+};
+
+export default Main;
