@@ -61,7 +61,7 @@ const CombinedPage: React.FC = () => {
         // Card 2: Drive Growth (Animate from center Hero area down to position)
         gsap.fromTo(
           ".animate-card-2",
-          { y: -220, x: -50, rotation: 0, scale: 1.02 },
+          { y: -210, x: -50, rotation: 0, scale: 1.02 },
           {
             y: 0,
             x: 0,
