@@ -60,15 +60,15 @@ const TabSection: React.FC = () => {
   const currentTab = tabData.find((tab) => tab.id === activeTab)!;
 
   return (
-    <section className="bg-[#f3f3f3] py-20 px-6 md:px-12 font-['Roboto'] min-h-[850px] flex flex-col items-center overflow-hidden">
+    <section className="bg-[#f3f3f3] pt-10 px-6 md:px-12 font-['Roboto'] flex flex-col items-center overflow-hidden">
       
       {/* Navigation Tab Bar */}
-      <div className="bg-white rounded-full p-1.5 flex items-center shadow-sm mb-16 inline-flex border border-gray-100 z-10">
+      <div className="bg-white rounded-full p-1.5 flex items-center shadow-sm mb-4 inline-flex border border-gray-100 z-10">
         {tabData.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`px-8 py-2.5 rounded-full text-[17px] font-medium transition-all duration-300 ${
+            className={`px-8 py-2.5 rounded-full text-[17px] cursor-pointer font-medium transition-all duration-300 ${
               activeTab === tab.id 
               ? `${tab.activeColor} text-black shadow-sm` 
               : 'text-[#444] hover:bg-gray-50'
@@ -80,40 +80,35 @@ const TabSection: React.FC = () => {
       </div>
 
       {/* Content Area */}
-      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         
         {/* Left Side: Text Content */}
         <div className="space-y-6 max-w-xl animate-in fade-in slide-in-from-left-4 duration-700">
-          <h2 className="text-[44px] md:text-[56px] font-[700] leading-[1.1] text-[#1a1a1a] tracking-tight">
+          <h2 className="text-[38px] md:text-[40px] font-grifter leading-[1] text-[#1a1a1a] tracking-tight">
             {currentTab.title}
           </h2>
-          <p className="text-[#555] text-[20px] leading-relaxed font-normal">
+          <p className="text-[#555] text-lg leading-normal font-roboto">
             {currentTab.description}
           </p>
-          <button className="bg-[#1a1a1a] hover:bg-black text-white px-7 py-3.5 rounded-xl text-lg font-bold transition-all duration-200 mt-4 active:scale-95 shadow-md">
+          <button className="bg-[#2e00c5] hover:bg-[#2701a1] text-white px-7 py-3.5 rounded-full text-base font-grifter transition-all duration-200 mt-4 active:scale-95 shadow-sm cursor-pointer">
             {currentTab.buttonText}
           </button>
         </div>
 
         {/* Right Side: Image Display */}
-        <div className="relative w-full h-[450px] md:h-[550px] transition-all duration-500 ease-in-out">
+        <div className="relative w-full h-[450px] md:h-[450px] transition-all duration-500 ease-in-out">
             <div 
                 key={activeTab} // Key changing triggers re-render animation
-                className="relative w-full h-full animate-in fade-in zoom-in-95 duration-500"
+                className="relative w-full h-full"
             >
                 <Image 
                     src={currentTab.imageSrc} 
                     alt={currentTab.label}
                     fill
-                    className="object-contain drop-shadow-2xl"
+                    className="object-contain"
                     priority
                 />
             </div>
-
-             {/* Dot Pattern Background Overlay */}
-             <div className="absolute inset-0 -z-10 pointer-events-none opacity-[0.05]" 
-                  style={{ backgroundImage: 'radial-gradient(#000 1.5px, transparent 1.5px)', backgroundSize: '24px 24px' }}>
-             </div>
         </div>
 
       </div>
