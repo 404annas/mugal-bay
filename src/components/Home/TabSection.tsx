@@ -23,7 +23,7 @@ const tabData: TabData[] = [
     description: 'Pull outputs from Claude, NotebookLM, or any research tool into one canvas. Your team reviews the findings together, surfaces what matters, and commits to a direction — then flow the insights back out to your roadmap, specs, or next AI prompt.',
     buttonText: 'Explore research',
     activeColor: 'bg-[#FFED70]',
-    imageSrc: '/assets/section1.avif' 
+    imageSrc: '/section1.avif' 
   },
   {
     id: 'roadmaps',
@@ -32,7 +32,7 @@ const tabData: TabData[] = [
     description: 'Connect your backlog, company priorities, strategy docs, and voice of customer tools to the canvas. Work through the tradeoffs as a team, build a shared roadmap, and push it back out as context for your sprint planning tools — so everyone\'s building in the same direction.',
     buttonText: 'Explore roadmaps',
     activeColor: 'bg-[#D8FFC3]',
-    imageSrc: '/assets/section2.avif'
+    imageSrc: '/section2.avif'
   },
   {
     id: 'diagrams',
@@ -41,7 +41,7 @@ const tabData: TabData[] = [
     description: 'Describe your workflow to Claude, Cursor, Codex, or Kiro and bring it into Miro as a visual process map. Swim lanes, decision points, and sequence flows on one canvas - so every stakeholder can spot where things break down and agree on what to fix.',
     buttonText: 'Explore diagrams',
     activeColor: 'bg-[#F1C6FF]',
-    imageSrc: '/assets/section3.avif'
+    imageSrc: '/section3.avif'
   },
   {
     id: 'workshops',
@@ -50,7 +50,7 @@ const tabData: TabData[] = [
     description: 'Pull your meeting notes into Miro and generate a workshop framework in minutes - agenda, activities, slides, and all. Run the session on the canvas, let your team build understanding, then capture next steps as tasks and send them straight to Jira, Linear, or wherever your team tracks work.',
     buttonText: 'Explore workshops',
     activeColor: 'bg-[#FFE6C5]',
-    imageSrc: '/assets/section4.avif'
+    imageSrc: '/section4.avif'
   }
 ];
 
